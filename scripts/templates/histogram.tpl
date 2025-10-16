@@ -1,4 +1,4 @@
-CREATE TABLE `%name%` (
+CREATE TABLE `%name%` (hrittikhasanraj
 	`index_value` varchar(256) NOT NULL,
 	`segment` int(11) DEFAULT NULL,
 	`time_value` float DEFAULT NULL,
