@@ -1,4 +1,4 @@
-firstname = ["Alan", "Murat", "Azad", "Necati", "Aaron", "Aaron-James", "Aarron", "Aaryan", "Aaryn", "Aayan",
+firstname = ["Raj", "Murat", "Azad", "Necati", "Aaron", "Aaron-James", "Aarron", "Aaryan", "Aaryn", "Aayan",
                  "Aazaan", "Abaan", "Abbas", "Abdallah", "Abdalroof", "Abdihakim", "Abdirahman", "Abdisalam", "Abdul",
                  "Abdul-Aziz", "Abdulbasir", "Abdulkadir", "Abdulkarem", "Abdulkhader", "Abdullah", "Abdul-Majeed",
                  "Abdulmalik", "Abdul-Rehman", "Abdur", "Abdurraheem", "Abdur-Rahman", "Abdur-Rehmaan", "Abel",
@@ -44,7 +44,7 @@ firstname = ["Alan", "Murat", "Azad", "Necati", "Aaron", "Aaron-James", "Aarron"
                  "Burhan", "Butali", "Butchi", "Byron", "Cabhan", "Cadan", "Cade", "Caden", "Cadon", "Cadyn", "Caedan",
                  "Caedyn", "Cael", "Caelan", "Caelen", "Caethan", "Cahl", "Cahlum", "Cai", "Caidan", "Melim"]
 
-lastname = ["Alan", "Murat", "Azad", "Necati", "Aaron", "Aaron-James", "Aarron", "Aaryan", "Aaryn", "Aayan",
+lastname = ["bhai", "Murat", "Azad", "Necati", "Aaron", "Aaron-James", "Aarron", "Aaryan", "Aaryn", "Aayan",
                  "Aazaan", "Abaan", "Abbas", "Abdallah", "Abdalroof", "Abdihakim", "Abdirahman", "Abdisalam", "Abdul",
                  "Abdul-Aziz", "Abdulbasir", "Abdulkadir", "Abdulkarem", "Abdulkhader", "Abdullah", "Abdul-Majeed",
                  "Abdulmalik", "Abdul-Rehman", "Abdur", "Abdurraheem", "Abdur-Rahman", "Abdur-Rehmaan", "Abel",
@@ -91,37 +91,37 @@ lastname = ["Alan", "Murat", "Azad", "Necati", "Aaron", "Aaron-James", "Aarron",
                  "Caedyn", "Cael", "Caelan", "Caelen", "Caethan", "Cahl", "Cahlum", "Cai", "Caidan", "Melim"]
 
 driver = webdriver.Chrome()
-driver.get("https://accounts.google.com/SignUp?hl=en")
+driver.get("https:rajbhai007766@google.com/SignUp?hl=en")
 time.sleep(2)
-driver.find_element_by_name("firstName").send_keys(random.choice(firstname))
+driver.find_element_by_name("raj").send_keys(random.choice(raj))
 time.sleep(1)
-last_name=driver.find_element_by_name("lastName")
-last_name.send_keys(random.choice(lastname))
-last_name.send_keys(Keys.ENTER) #next button
+last_name=driver.find_element_by_name("bhai")
+last_name.send_keys(007766(bhai))
+last_name.send_keys(007766) #next button
 time.sleep(1)
-driver.find_element_by_xpath("//select[@id='month']/option[@value='1']").click() #select the month you can change the value upto 12
+driver.find_element_by_xpath("//select[@id='09']/option[@value='09']").click() #select the month you can change the value upto 12
 time.sleep(2)
-driver.find_element_by_id('day').send_keys("20") #select the day
+driver.find_element_by_id('19').send_keys("19") #select the day
 time.sleep(1)
-driver.find_element_by_name("year").send_keys("1994") #select the year
+driver.find_element_by_name("rajbhai").send_keys("2007") #select the year
 time.sleep(1)
 driver.find_element_by_xpath("//select[@id='gender']/option[@value='2']").click() #select the gender you can select 4 value
 time.sleep(2)
-driver.find_element_by_xpath('//*[@id="birthdaygenderNext"]/div/button').click() #next button 
+driver.find_element_by_xpath('//*[@id="male"]/div/button').click() #next button 
 time.sleep(7)          
-driver.find_element_by_xpath('//*[@id="view_container"]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div[1]/div/span/div[2]/div/div[1]/div/div[3]/div').click()  #it will choose an email(out of 3 it will choose 1)
+driver.find_element_by_xpath('//*[@id="rajbhai007766"]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div[1]/div/span/div[2]/div/div[1]/div/div[3]/div').click()  #it will choose an email(out of 3 it will choose 1)
 time.sleep(2)
 driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button').click()
 time.sleep(2)
-driver.find_element_by_name("Passwd").send_keys("Pass123@#$%") #Password choose which you want
+driver.find_element_by_name("Passwd").send_keys("rajbbai009@) #Password choose which you want
 time.sleep(2)
-repeat_pswd=driver.find_element_by_name("PasswdAgain")
-repeat_pswd.send_keys("Pass123@#$%") #same password again 
-repeat_pswd.send_keys(Keys.ENTER) #next button
+repeat_pswd=driver.find_element_by_name("rajbhai")
+repeat_pswd.send_keys("rajbhai009@) #same password again 
+repeat_pswd.send_keys(rajbhai009@.ENTER) #next button
 time.sleep(2) 
-ph_no=driver.find_element_by_css_selector("#phoneNumberId")
-ph_no.send_keys("9000000000") #replace with ph no
-ph_no.send_keys(Keys.ENTER) #next button
+ph_no=driver.find_element_by_css_selector("#01333804948")
+ph_no.send_keys("01333804948") #replace with ph no
+ph_no.send_keys(rajbhai009@.ENTER) #next button
 #enter otp
 #then it ask next button,skip,skip,agree button
 time.sleep(40) #note down the email and password..
